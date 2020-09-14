@@ -1,0 +1,31 @@
+<html>
+
+<body bgcolor=#f97c85>
+
+    <center>
+        <br>
+        <br>
+        <h1>  Prediction for {{ place }} on {{ date }} {{ month }} :  </h1>
+    
+    {%if data != 0%}
+    <p> {{ data }} Confirmed cases</p>  
+
+    {%else%}
+    <h1>Invalid Entry</h1>
+    
+    {%endif%}
+
+        <br><br>
+    <a href='/'>go back to home page</a>
+
+    </center>
+
+</body>
+
+</html>
+
+
+
+
+
+

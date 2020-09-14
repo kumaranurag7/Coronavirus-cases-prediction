@@ -1,0 +1,22 @@
+<html>
+    <body bgcolor=#a3cfb4>
+
+        <center>
+
+        <h1> India : Coronavirus cases Prediction </h1><br>
+        <p> Predict cases for september and october </p>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> Place : <input type="text", name='b', placeholder="India or its states/ut"> <br><br>
+	    Month : <input type="text", name='c', placeholder="ex : september"> <br><br>
+	    Date :  <input type="number", name='a', placeholder="enter day of month"> <br><br><br></b>
+            <input type="submit" , value='predict cases!' >
+        </form><br><br>
+        <p> Our prediction for August was 91% accurate!</p>
+        <img src='static\pred.jpg' style="width:750px;height:480px;">
+
+        
+    </center>
+
+    </body>
+</html>
